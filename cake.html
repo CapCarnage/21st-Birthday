@@ -5,6 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Magical Birthday Cake</title>
     <style>
+      .next-wrapper {
+  position: fixed;
+  bottom: 25px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 50;
+}
+
+.next-btn {
+  padding: 14px 28px;
+  background: linear-gradient(135deg, #ff4d6d, #ff85a2);
+  color: white;
+  border: none;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(255, 51, 102, 0.4);
+  transition: all 0.3s ease;
+}
+
+.next-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 30px rgba(255, 51, 102, 0.6);
+}
+
+.next-btn:active {
+  transform: scale(0.98);
+}
       /* Global Styles */
       * {
         margin: 0;
