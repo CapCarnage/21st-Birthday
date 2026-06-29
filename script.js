@@ -83,13 +83,13 @@ window.addEventListener('load', () => {
         });
 
         // Smooth page transition on click
-        button.addEventListener('click', () => {
-            gsap.to('body', {
-                opacity: 0,
-                duration: 1,
-                onComplete: () => {
-                    window.location.href = 'cause.html'; // Replace with the actual URL of the next page
-                }
-            });
-        });
+button.addEventListener('click', () => {
+    gsap.to('body', {
+        opacity: 0,
+        duration: 1,
+        onComplete: () => {
+            window.location.href = 'cake.html';
+        }
+    });
+});
     });
